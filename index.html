@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Frontend Blog</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
+.w3-bar,h1,button {font-family: "Montserrat", sans-serif}
+.fa-anchor,.fa-coffee {font-size:200px}
+</style>
+</head>
+<body>
+
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-red w3-card w3-left-align w3-large">
+    <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large w3-red" href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="#" class="w3-bar-item w3-button w3-padding-large w3-white">Home</a>
+  </div>
+
+</div>
+
+<!-- Header -->
+<header class="w3-container w3-red w3-center" style="padding:128px 16px">
+  <h1 class="w3-margin w3-jumbo">Frontend Development</h1>
+
+  <button class="w3-button w3-black w3-padding-large w3-large w3-margin-top">Get Started</button>
+</header>
+
+<!-- First Grid -->
+<div class="w3-row-padding w3-padding-64 w3-container">
+  <div class="w3-content">
+    <div class="w3-twothird">
+      <h1>How did Frontend Development Begin ?</h1>
+      <h5 class="w3-padding-32">Frontend development has come a long way since the early days of the web. In the beginning, web pages were simple and static, with HTML and CSS being the only technologies used. However, as the web evolved, so did frontend development. Today, frontend development is more complex than ever before, with a wide range of technologies and frameworks available to developers.
+
+React and Vue are two of the most popular frontend frameworks today. React is a JavaScript library for building user interfaces while Vue is a progressive framework for building user interfaces. Both frameworks are open-source and have large communities of developers contributing to their development.</h5>
+
+<h2>What is the difference between a library and a framework?</h2>
+      <h5 class="w3-padding-32">A library is a collection of pre-written code, functions, or classes that developers can use to simplify tasks. Libraries are optional and can be used as needed. 
+
+On the other hand, a framework is a structure that provides guidelines and enforces specific coding patterns. Frameworks dictate the overall structure of a project. The key difference between a library and a framework is "Inversion of Control". When you call a method from a library, you are in control. But with a framework, the control is inverted: the framework calls you.
+
+There are many frontend technologies available for developers to use. Some of the most popular ones include React, Vue.js, Angular, and jQuery. 
+
+React is a JavaScript library for building user interfaces. It is maintained by Facebook and has a large community of developers contributing to its development. Vue.js is a progressive framework for building user interfaces. It is open-source and has a large community of developers contributing to its development. Angular is a TypeScript-based open-source web application framework led by the Angular Team at Google. jQuery is a fast, small, and feature-rich JavaScript library that simplifies HTML document traversing, event handling, animating, and Ajax interactions for rapid web development.
+
+Each technology has its own unique features and benefits. For example, React uses a virtual DOM which makes it faster than other frameworks. Vue.js is known for its simplicity and ease of use. Angular is known for its robustness and scalability. jQuery is known for its simplicity and ease of use.</h5>
+    </div>
+
+    <div class="w3-third w3-center">
+      <i class="fa fa-anchor w3-padding-64 w3-text-red"></i>
+    </div>
+  </div>
+</div>
+
+<!-- Second Grid -->
+<div class="w3-row-padding w3-light-grey w3-padding-64 w3-container">
+  <div class="w3-content">
+    <div class="w3-third w3-center">
+      <i class="fa fa-coffee w3-padding-64 w3-text-red w3-margin-right"></i>
+    </div>
+
+    <div class="w3-twothird">
+      <h1>Is Frontend Development Good Career Choice ?</h1>
+      <h5 class="w3-padding-32">Frontend development is a great choice as a career for many reasons. One of the most obvious benefits is that it is a growing field with many job opportunities. Additionally, front-end developers typically have high earning potential and can find work in a variety of industries. Another benefit of choosing a career in front-end web development is that it is a very creative field. You will be able to express your creativity by designing and building beautiful websites.</h5>
+
+      <h2>How To Become Frontend Developer ?</h2>
+      <h5 class="w3-padding-32">To become a front-end developer, you need to have a degree in Computer Science or a similar field. Front-end developers do not need a degree or a school certificate to work. Rather, they must understand the fundamentals of front-end development, programming languages, and front-end development frameworks such as HTML, CSS, JavaScript, and jQuery. You should also understand server-side CSS. Additionally, you should be experienced with graphic design applications (e.g., Adobe Illustrator). You should understand the principles of SEO and have excellent skills in problem-solving. You should be proficient in communicating with team members, bosses, and clients and have good interpersonal skills.</h5>
+      
+      <h3>What's The Future For Frontend Development?</h3>
+      <h5 class="w3-padding-32">The future of frontend development looks bright as most frontend frameworks are stable now and are currently being optimized even further to make them perform better and become more developer-friendly. Frontend developers should look to learn new JavaScript libraries or frameworks during 2023 to stay competitive and up-to-date. The most popular JavaScript libraries are jQuery.</h5>
+    </div>
+  </div>
+</div>
+
+<div class="w3-container w3-black w3-center w3-opacity w3-padding-64">
+    <h1 class="w3-margin w3-xlarge">Quote of the day: live life</h1>
+</div>
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-64 w3-center w3-opacity">  
+  <div class="w3-xlarge w3-padding-32">
+    <i class="fa fa-linkedin w3-hover-opacity"></i>
+ </div>
+ <p>Powered by <a href="https://www.linkedin.com/in/hassan-abdi-7a2972237/" target="_blank">Love</a></p>
+</footer>
+
+<script>
+// Used to toggle the menu on small screens when clicking on the menu button
+function myFunction() {
+  var x = document.getElementById("navDemo");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+</script>
+
+</body>
+</html>
